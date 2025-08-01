@@ -1,0 +1,15 @@
+// public/sitemap.json
+{
+  "urlset": [
+    "https://swisseduguide.com/",
+    "https://swisseduguide.com/swiss-system",
+    "https://swisseduguide.com/university-access",
+    "https://swisseduguide.com/visa-guide",
+    "https://swisseduguide.com/high-school-advice",
+    "https://swisseduguide.com/tuition-comparison",
+    "https://swisseduguide.com/consulting",
+    "https://swisseduguide.com/authors",
+    "https://swisseduguide.com/about",
+    "https://swisseduguide.com/blog"
+  ]
+}

@@ -1,0 +1,39 @@
+/* src/pages/HighSchoolAdvice.css */
+.high-school-advice {
+  padding: 4rem 0;
+}
+
+.advice-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  margin: 3rem 0;
+}
+
+.advice-column {
+  padding: 2rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  border: 1px solid #e2e8f0;
+}
+
+.advice-column h3 {
+  margin-top: 0;
+  color: #1a365d;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.advice-column h4 {
+  color: #2c5282;
+  margin-top: 1.5rem;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .advice-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}

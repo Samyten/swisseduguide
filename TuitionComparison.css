@@ -1,0 +1,72 @@
+/* src/pages/TuitionComparison.css */
+.tuition-comparison {
+  padding: 4rem 0;
+}
+
+.table-section {
+  margin: 3rem 0;
+}
+
+.comparison-table th {
+  background-color: #1a365d;
+  color: white;
+  text-align: left;
+  padding: 1rem;
+  font-weight: 600;
+}
+
+.comparison-table td {
+  padding: 1rem;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.comparison-table tr:nth-child(even) {
+  background-color: #f8fafc;
+}
+
+.comparison-table tr:hover {
+  background-color: #ebf8ff;
+}
+
+.cost-breakdown {
+  margin: 5rem 0;
+}
+
+.breakdown-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.breakdown-item {
+  background: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  border: 1px solid #e2e8f0;
+}
+
+.breakdown-item h4 {
+  color: #1a365d;
+  margin-top: 0;
+}
+
+.additional-costs {
+  margin: 5rem 0;
+}
+
+.costs-list {
+  background: white;
+  border-radius: 8px;
+  padding: 2rem;
+  border: 1px solid #e2e8f0;
+}
+
+.costs-list h4 {
+  color: #1a365d;
+  margin-top: 1.5rem;
+}
+
+.costs-list h4:first-child {
+  margin-top: 0;
+}

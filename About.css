@@ -1,0 +1,66 @@
+/* src/pages/About.css */
+.about {
+  padding: 4rem 0;
+}
+
+.mission-section {
+  margin: 3rem 0;
+}
+
+.mission-section p {
+  margin-bottom: 1.5rem;
+}
+
+.principles-section {
+  margin: 5rem 0;
+}
+
+.principles-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.principle-card {
+  background: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  border: 1px solid #e2e8f0;
+}
+
+.principle-card h3 {
+  color: #1a365d;
+  margin-top: 0;
+}
+
+.content-section {
+  margin: 5rem 0;
+}
+
+.content-process {
+  background: white;
+  border-radius: 8px;
+  padding: 2rem;
+  border: 1px solid #e2e8f0;
+}
+
+.content-process ul {
+  margin: 1rem 0;
+  padding-left: 1.5rem;
+}
+
+.content-process li {
+  margin-bottom: 0.5rem;
+}
+
+.contact-section {
+  margin: 5rem 0;
+}
+
+.contact-content {
+  background: white;
+  border-radius: 8px;
+  padding: 2rem;
+  border: 1px solid #e2e8f0;
+}

@@ -1,0 +1,135 @@
+/* src/pages/SwissSystem.css */
+.swiss-system {
+  padding: 4rem 0;
+}
+
+.intro-text {
+  max-width: 900px;
+  margin: 0 auto 3rem;
+  text-align: center;
+  color: #4a5568;
+}
+
+.tabs {
+  margin: 3rem 0;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  border: 1px solid #e2e8f0;
+}
+
+.tab-list {
+  display: flex;
+  border-bottom: 1px solid #e2e8f0;
+  background-color: #f8fafc;
+}
+
+.tab-button {
+  padding: 1rem 1.5rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  color: #4a5568;
+  transition: all 0.2s ease;
+}
+
+.tab-button:hover {
+  background-color: #ebf8ff;
+}
+
+.tab-button.active {
+  background-color: white;
+  border-bottom: 3px solid #3182ce;
+  color: #1a365d;
+  font-weight: 600;
+}
+
+.tab-content {
+  padding: 2rem;
+}
+
+.tab-pane h3 {
+  margin-top: 0;
+  color: #1a365d;
+}
+
+.tab-pane h4 {
+  color: #2c5282;
+}
+
+.tab-pane ul {
+  margin: 1rem 0;
+  padding-left: 1.5rem;
+}
+
+.tab-pane li {
+  margin-bottom: 0.5rem;
+}
+
+.comparison-section {
+  margin: 5rem 0;
+}
+
+.table-container {
+  overflow-x: auto;
+  margin: 2rem 0;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.comparison-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.comparison-table th {
+  background-color: #1a365d;
+  color: white;
+  text-align: left;
+  padding: 1rem;
+  font-weight: 600;
+}
+
+.comparison-table td {
+  padding: 1rem;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.comparison-table tr:nth-child(even) {
+  background-color: #f8fafc;
+}
+
+.comparison-table tr:hover {
+  background-color: #ebf8ff;
+}
+
+.table-note {
+  padding: 1.5rem;
+  background-color: #f8fafc;
+  border-top: 1px solid #e2e8f0;
+  border-radius: 0 0 8px 8px;
+}
+
+.table-note p {
+  color: #4a5568;
+  font-size: 0.95rem;
+  margin: 0;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .tab-list {
+    flex-wrap: wrap;
+  }
+  
+  .tab-button {
+    flex: 1;
+    text-align: center;
+    padding: 0.75rem;
+    font-size: 0.9rem;
+  }
+}

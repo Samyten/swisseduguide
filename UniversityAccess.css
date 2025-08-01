@@ -1,0 +1,69 @@
+/* src/pages/UniversityAccess.css */
+.university-access {
+  padding: 4rem 0;
+}
+
+.pathways-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin: 3rem 0;
+}
+
+.pathway-card {
+  background: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  border: 1px solid #e2e8f0;
+}
+
+.pathway-card h3 {
+  margin-top: 0;
+  color: #1a365d;
+}
+
+.pathway-card ul {
+  margin: 1rem 0;
+  padding-left: 1.5rem;
+}
+
+.pathway-card li {
+  margin-bottom: 0.5rem;
+}
+
+.epfl-section {
+  margin: 5rem 0;
+}
+
+.epfl-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.epfl-card {
+  background: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  border: 1px solid #e2e8f0;
+}
+
+.epfl-card h4 {
+  color: #1a365d;
+  margin-top: 0;
+}
+
+.cost-section {
+  margin: 5rem 0;
+}
+
+.cost-content ul {
+  margin: 1rem 0;
+  padding-left: 1.5rem;
+}
+
+.cost-content li {
+  margin-bottom: 0.5rem;
+}

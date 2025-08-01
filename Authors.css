@@ -1,0 +1,56 @@
+/* src/pages/Authors.css */
+.authors {
+  padding: 4rem 0;
+}
+
+.authors-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin: 3rem 0;
+}
+
+.author-card {
+  background: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  border: 1px solid #e2e8f0;
+}
+
+.author-name {
+  font-size: 1.2rem;
+  color: #1a365d;
+  margin-bottom: 0.25rem;
+}
+
+.author-title {
+  font-size: 0.95rem;
+  color: #2c5282;
+  margin-bottom: 0.75rem;
+  font-weight: 600;
+}
+
+.author-bio {
+  color: #4a5568;
+  margin-bottom: 1rem;
+}
+
+.author-link {
+  font-size: 0.9rem;
+  color: #3182ce;
+}
+
+.editorial-section {
+  margin: 5rem 0;
+}
+
+.editorial-content {
+  background: white;
+  border-radius: 8px;
+  padding: 2rem;
+  border: 1px solid #e2e8f0;
+}
+
+.editorial-content p {
+  margin-bottom: 1rem;
+}

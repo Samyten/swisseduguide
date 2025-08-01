@@ -1,0 +1,18 @@
+/* src/pages/Blog.css */
+.blog {
+  padding: 4rem 0;
+}
+
+.blog-intro {
+  max-width: 800px;
+  margin: 0 auto 3rem;
+  text-align: center;
+  color: #4a5568;
+}
+
+.articles-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}

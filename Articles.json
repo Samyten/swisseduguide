@@ -1,0 +1,23 @@
+// src/content/articles.json
+[
+  {
+    "id": 1,
+    "title": "Understanding the Swiss Matura System",
+    "slug": "understanding-swiss-matura",
+    "date": "2024-03-15",
+    "readTime": "8 min read",
+    "excerpt": "A comprehensive guide to Switzerland's federal maturity certificate and its international recognition.",
+    "category": "diplomas",
+    "tags": ["matura", "switzerland", "education"]
+  },
+  {
+    "id": 2,
+    "title": "IB vs A-Levels: Which is Right for Your Child?",
+    "slug": "ib-vs-a-levels",
+    "date": "2024-02-28",
+    "readTime": "10 min read",
+    "excerpt": "Comparing the International Baccalaureate and British A-Level systems for university preparation.",
+    "category": "diplomas",
+    "tags": ["ib", "a-levels", "comparison"]
+  }
+]
